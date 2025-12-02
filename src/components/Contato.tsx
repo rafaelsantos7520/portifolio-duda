@@ -7,7 +7,7 @@ interface ContatoProps {
 export default function Contato({ whatsappLink }: ContatoProps) {
   return (
     <section className="py-20 bg-stone-900 text-white text-center">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-6 reveal">
         <h2 className="text-3xl md:text-5xl font-serif font-bold mb-6">Vamos fechar uma parceria?</h2>
         <p className="text-stone-400 mb-10 text-lg">Leve sua empresa para o próximo nível no digital.</p>
         <a

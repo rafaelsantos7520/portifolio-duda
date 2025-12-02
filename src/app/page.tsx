@@ -2,10 +2,13 @@
 import Navbar from "../components/Navbar"
 import Header from "../components/Header"
 import Proposito from "../components/Proposito"
+import Servicos from "../components/Servicos"
 import Planos from "../components/Planos"
 import Depoimentos from "../components/Depoimentos"
 import Contato from "../components/Contato"
 import Footer from "../components/Footer"
+
+import { useEffect } from "react"
 
 export default function Home() {
   const whatsappNumber = "5527998114944"
@@ -54,6 +57,21 @@ export default function Home() {
     },
   ]
 
+  useEffect(() => {
+    const elements = Array.from(document.querySelectorAll<HTMLElement>(".reveal, .reveal-left, .reveal-right"))
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show")
+          io.unobserve(entry.target)
+        }
+      })
+    }, { threshold: 0.15 })
+
+    elements.forEach((el) => io.observe(el))
+    return () => io.disconnect()
+  }, [])
+
   return (
     <div className="font-sans text-stone-800 bg-[#FAF9F6] selection:bg-rose-200">
       <Navbar whatsappLink={whatsappLink} instagramLink={instagramLink} />
@@ -61,6 +79,8 @@ export default function Home() {
       <Header whatsappLink={whatsappLink} instagramLink={instagramLink} />
 
       <Proposito />
+
+      <Servicos />
 
       <Planos whatsappLink={whatsappLink} packages={packages} />
 

@@ -6,7 +6,7 @@ export default function Depoimentos() {
       <div className="container mx-auto px-6">
         <h2 className="text-3xl font-serif font-bold text-center text-stone-800 mb-16">O que dizem os clientes</h2>
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          <div className="bg-[#FAF9F6] p-8 rounded-2xl relative">
+          <div className="bg-[#FAF9F6] p-8 rounded-2xl relative reveal hover-float" style={{ transitionDelay: `0ms` }}>
             <div className="absolute -top-4 left-8 bg-rose-200 text-rose-700 p-2 rounded-lg">
               <Star size={20} fill="currentColor" />
             </div>
@@ -19,7 +19,7 @@ export default function Depoimentos() {
               </div>
             </div>
           </div>
-          <div className="bg-[#FAF9F6] p-8 rounded-2xl relative">
+          <div className="bg-[#FAF9F6] p-8 rounded-2xl relative reveal hover-float" style={{ transitionDelay: `140ms` }}>
             <div className="absolute -top-4 left-8 bg-rose-200 text-rose-700 p-2 rounded-lg">
               <Star size={20} fill="currentColor" />
             </div>

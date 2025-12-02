@@ -6,20 +6,20 @@ export default function Proposito() {
     <section id="proposito" className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="relative">
+          <div className="relative reveal-left">
             <div className="absolute inset-0 bg-stone-100 rounded-tl-[5rem] rounded-br-[5rem] rotate-3" />
-            <div className="relative rounded-tl-[5rem] rounded-br-[5rem] shadow-2xl w-full h-96 lg:h-[500px] overflow-hidden">
+            <div className="relative rounded-tl-[5rem] rounded-br-[5rem] shadow-2xl w-full h-[520px] lg:h-[640px] overflow-hidden">
               <Image
                 src="/profile.jpg"
                 alt="Foto de perfil"
                 fill
-                className="object-cover object-top transition-all duration-700"
+                className="object-cover object-center transition-transform duration-700 hover:scale-105"
                 sizes="(max-width: 768px) 100vw, 50vw"
                 priority
               />
             </div>
           </div>
-          <div>
+          <div className="reveal-right">
             <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6 text-stone-800">
               Transforme seguidores em <span className="text-rose-500">fãs e clientes</span>.
             </h2>
