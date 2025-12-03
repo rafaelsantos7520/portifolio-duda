@@ -70,7 +70,7 @@ export default function Header({ whatsappLink, instagramLink }: HeaderProps) {
             className="px-8 py-4 bg-white text-stone-800 border border-stone-200 rounded-full font-medium hover:border-rose-300 hover:text-rose-500 transition-all duration-300 flex items-center justify-center gap-2"
           >
             <Instagram size={20} />
-            @EMendonadigital
+            @ememendoncadigital
           </a>
         </div>
       </div>

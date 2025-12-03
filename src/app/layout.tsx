@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     description:
       "Gestão e estratégia de redes sociais com foco em posicionamento digital, dados e resultados reais.",
     images: ["/profile.jpg"],
-    site: "@EMendonadigital",
+    site: "@ememendoncadigital",
   },
   robots: {
     index: true,
@@ -91,7 +91,7 @@ export default function RootLayout({
             "@type": "Person",
             name: "Eduarda Mendonça",
             jobTitle: "Social Media Strategist",
-            sameAs: ["https://instagram.com/EMendonadigital"],
+            sameAs: ["https://instagram.com/ememendoncadigital"],
             image: "/profile.jpg",
             url: "/",
           })}

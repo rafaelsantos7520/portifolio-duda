@@ -14,7 +14,7 @@ export default function Home() {
   const whatsappNumber = "5527998114944"
   const whatsappMessage = encodeURIComponent("Olá Eduarda! Vi seu site e gostaria de saber mais sobre a consultoria.")
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`
-  const instagramLink = "https://instagram.com/EMendonadigital"
+  const instagramLink = "https://instagram.com/ememendoncadigital"
 
   const packages = [
     {
@@ -22,10 +22,10 @@ export default function Home() {
       price: "300",
       description: "Para quem está começando e precisa de constância.",
       features: [
-        "4 Reels por mês (1 por semana)",
+        "3 Reels por mês (1 por semana)",
         "8 Posts por mês (2 por semana)",
         "60 Stories por mês (2 por dia útil)",
-        "Relatório simples mensal",
+        "Relatório simples mensal (principais números e prints)",
       ],
       highlight: false,
     },
@@ -34,24 +34,24 @@ export default function Home() {
       price: "500",
       description: "O equilíbrio ideal entre conteúdo e tráfego pago.",
       features: [
-        "12 Reels por mês (3 por semana)",
-        "24 Posts por mês (6 por semana)",
+        "8 Reels por mês (2 por semana)",
+        "20 Posts por mês (5 por semana entre foto e carrossel)",
         "120 Stories por mês (4 por dia útil)",
         "1 Campanha de tráfego pago/semana",
-        "Relatório mensal completo",
+        "Relatório mensal completo (crescimento, alcance e vendas/WhatsApp)",
       ],
       highlight: true,
     },
     {
       name: "Premium",
-      price: "700",
+      price: "750",
       description: "Estratégia total com foco em crescimento acelerado.",
       features: [
-        "16 Reels por mês (4 por semana)",
+        "12 Reels por mês (3 por semana, com testes de criativos)",
         "30 Posts por mês (7-8 por semana)",
-        "160 Stories por mês (Bastidores/Vendas)",
-        "2 Campanhas de tráfego pago/semana",
-        "Reunião estratégica mensal + Relatório detalhado",
+        "160 Stories por mês (bastidores, lançamentos e ofertas)",
+        "2 Campanhas de tráfego pago/semana (ativa + promoção/inauguração)",
+        "Relatório detalhado + 1 reunião rápida/mês (online)",
       ],
       highlight: false,
     },
