@@ -14,7 +14,7 @@ export default function Home() {
   const whatsappNumber = "5527998114944"
   const whatsappMessage = encodeURIComponent("Olá Eduarda! Vi seu site e gostaria de saber mais sobre a consultoria.")
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`
-  const instagramLink = "https://instagram.com/ememendoncadigital"
+  const instagramLink = "https://instagram.com/emmendoncadigital"
 
   const packages = [
     {
